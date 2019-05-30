@@ -1,0 +1,46 @@
+.header{
+	height: 200px;
+	width: 200px;
+	border: 3px solid red ;
+	/*這邊是相對定位的用法 若要在div內調整元素位置 要使用relative
+	並且html的部分要將box包進box2內*/
+	position: relative;
+}
+
+.box{
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	/*這邊是絕對定位的用法 可以在網頁中任意調整元素位置*/
+	position: absolute;
+	bottom: -40px;
+	right: -10px;
+	z-index: 2;
+}
+
+.box2{
+	height: 100px;
+	width: 100px;
+	background-color: pink;
+	/*這邊是絕對定位的用法 可以在網頁中任意調整元素位置*/
+	position: absolute;
+	bottom: -50px;
+	right: -20px;
+	z-index: 3;
+}
+
+.box3{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	/*這邊是絕對定位的用法 可以在網頁中任意調整元素位置*/
+	position: absolute;
+	bottom: -60px;
+	right: -30px;
+	z-index: 4
+}
+
+/*z-index數值越高 越在圖層上方*/
+
+
+

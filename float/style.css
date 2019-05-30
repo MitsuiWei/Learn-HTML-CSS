@@ -1,0 +1,40 @@
+.swap{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+
+.header{
+	
+	width: 1000px;
+	height: 50px;
+	background: red;
+	
+}
+
+.menu{
+
+	width: 400px;
+	height: 50px;
+	background: yellow;
+	float: right;
+	
+}
+
+.content{
+
+	width: 600px;
+	height: 50px;
+	background: green;
+	float: left;
+}
+.clearfix{
+	clear: both;
+}
+
+.footer{
+	width:1000px;
+	height: 100px;
+	background: pink; 
+}
+
