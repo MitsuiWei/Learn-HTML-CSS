@@ -88,12 +88,7 @@
 
 .html,.rwd,.jquery{
 	width: 300px;
-	height: 370px;
-	border:solid 3px rgba(241,241,241,0.8);
-
-	
-	
-	 
+	border:solid 3px rgba(241,241,241,0.8); 
 	float:left;
 	margin-left: 20px;
 	margin-top: 70px;
@@ -130,6 +125,7 @@
 .content p{
 	text-align: center;
 	padding-top: 10px;
+	margin-bottom: 20px;
 }
 
 
